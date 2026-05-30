@@ -52,7 +52,7 @@ div>a:hover{
 
 .logo{
     width: auto;
-    height: 7%;
+    max-height: 70px;
 }
 
 .noticia{
