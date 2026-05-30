@@ -10,8 +10,11 @@ body{
 }
 
 header{
+    position: sticky;
+    z-index: 2000;
     background: linear-gradient(to bottom right, #caa14d, #fcf6ba, #b38728, #fbf5b7, #b3822f);
     font-size: 20px;
+    height: auto;
     top: 0%;
     justify-content: baseline;
     align-items: center;
@@ -32,6 +35,10 @@ header{
 #logo>img{
     width: 90px;
     height: 90px;
+}
+
+.menu {
+    gap: 30px; 
 }
 
 .noticia{
