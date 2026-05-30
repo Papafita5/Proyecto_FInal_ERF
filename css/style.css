@@ -10,7 +10,6 @@ body{
 }
 
 header{
-    text-align: center;
     position: sticky;
     background: linear-gradient(to bottom right, #caa14d, #fcf6ba, #b38728, #fbf5b7, #b3822f);
     font-size: 20px;
@@ -37,7 +36,6 @@ header{
 
 .menu{
     width: 100%;
-    display: flex;
     align-items: center;
 }
 
