@@ -10,14 +10,12 @@ body{
 }
 
 header{
-    display: flex;
     position: sticky;
     background: linear-gradient(to bottom right, #caa14d, #fcf6ba, #b38728, #fbf5b7, #b3822f);
     font-size: 20px;
     top: 0%;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
     min-height: 90px;
     z-index: 2000;
 }
