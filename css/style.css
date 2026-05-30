@@ -38,6 +38,7 @@ div>a:hover{
 
 
 .menu{
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -51,8 +52,8 @@ div>a:hover{
 }
 
 .logo{
-    width: 10%;
-    height: 10%;
+    width: auto;
+    height: 7%;
 }
 
 .noticia{
