@@ -48,6 +48,12 @@ nav li, header li {
     display: flex;
     align-items: center;
 }
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     width: 10%;
     height: 10%;
