@@ -10,6 +10,7 @@ body{
 }
 
 header{
+    display: flex;
     position: sticky;
     background: linear-gradient(to bottom right, #caa14d, #fcf6ba, #b38728, #fbf5b7, #b3822f);
     font-size: 20px;
@@ -22,7 +23,7 @@ header{
     z-index: 2000;
     gap: 30%;
 }
-.menu>a{
+li>a{
     text-decoration: none;
     font-weight: bold;
     color: black;
