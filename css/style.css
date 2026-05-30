@@ -15,7 +15,6 @@ header{
     background: linear-gradient(to bottom right, #caa14d, #fcf6ba, #b38728, #fbf5b7, #b3822f);
     font-size: 20px;
     top: 0%;
-    justify-content: baseline;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
