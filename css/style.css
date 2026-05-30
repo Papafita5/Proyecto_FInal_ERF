@@ -10,14 +10,18 @@ body{
 }
 
 header{
+    display: flex;
     position: sticky;
-    z-index: 2000;
     background: linear-gradient(to bottom right, #caa14d, #fcf6ba, #b38728, #fbf5b7, #b3822f);
     font-size: 20px;
-    height: auto;
     top: 0%;
     justify-content: baseline;
     align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 90px;
+    z-index: 2000;
+    gap: 30%;
 }
 .menu>a{
     text-decoration: none;
@@ -31,14 +35,16 @@ header{
     box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
     padding: 0.5%;
 }
+.menu{
+    display: flex;
+    width: 60%;
+    gap: 2%;
+
+}
 
 #logo>img{
     width: 90px;
     height: 90px;
-}
-
-.menu {
-    gap: 30px; 
 }
 
 .noticia{
