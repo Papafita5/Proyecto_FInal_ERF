@@ -30,7 +30,7 @@ li>a{
     transition: all 0.4s ease-in-out;
 }
 
-.menu>a:hover{
+li>a:hover{
     background: linear-gradient(to bottom right, #bdbdbd, #ffffff, #757575, #e0e0e0, #9e9e9e);
     box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
     padding: 0.5%;
@@ -42,7 +42,7 @@ li>a{
 
 }
 
-#logo>img{
+.container-fluid>img{
     width: 90px;
     height: 90px;
 }
