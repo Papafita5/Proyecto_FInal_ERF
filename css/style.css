@@ -21,7 +21,6 @@ header{
     flex-wrap: wrap;
     height: 90px;
     z-index: 2000;
-    gap: 30%;
 }
 li{
     text-decoration: none;
