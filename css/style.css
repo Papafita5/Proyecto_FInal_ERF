@@ -21,6 +21,8 @@ header{
     z-index: 2000;
 }
 
+.navbar { width: 100%; }
+
 .paginas>.nav-link{
     text-decoration: none;
     font-weight: bold;
@@ -34,22 +36,32 @@ header{
     padding: 0.5%;
 }
 
-
 .menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     align-items: center;
 }
 
 .paginas{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    margin-left: 30px;
+    padding: 10px;
 }
 
 .logo{
     width: auto;
     max-height: 80px;
+}
+
+@media (max-width: 760px) {
+    .menu { padding: 10px; }
+    header { font-size: 14px; }
+    .logo {  max-height: 50px; }
+    .paginas {  gap: 10px; }
 }
 
 .noticia{
